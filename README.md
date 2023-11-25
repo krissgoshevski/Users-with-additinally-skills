@@ -1,3 +1,20 @@
+
+
+
+UserController for storing all methods for logic
+User and Skill models
+validations for the inputs
+
+ORM relationship -> M:M relationship between users and skills tables
+
+
+Create page for creating new users, with additionally Skills
+Index page - for showing the users with their skills
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
