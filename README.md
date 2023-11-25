@@ -1,7 +1,13 @@
 
+ROUTES WEB AND API
+
 
 
 UserController for storing all methods for logic
+
+
+
+UserController have methods for API and WEB routes, for crud operations
 
 
 
