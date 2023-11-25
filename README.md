@@ -2,13 +2,25 @@
 
 
 UserController for storing all methods for logic
+
+
+
 User and Skill models
+
+
+
 validations for the inputs
+
+
 
 ORM relationship -> M:M relationship between users and skills tables
 
 
+
 Create page for creating new users, with additionally Skills
+
+
+
 Index page - for showing the users with their skills
 
 
