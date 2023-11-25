@@ -17,8 +17,8 @@ return new class extends Migration
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('skill_id');
 
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('skill_id')->references('id')->on('skills');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('skill_id')->references('id')->on('skills')->onDelete('cascade');
 
             $table->timestamps();
         });
@@ -32,8 +32,8 @@ return new class extends Migration
 
         Schema::table('skill_user', function (Blueprint $table) {
             
-            $table->dropColumn('user_id');
-            $table->dropColumn('skill_id');
+          //  $table->dropColumn('user_id');
+          //  $table->dropColumn('skill_id');
           
             $table->dropForeign(['user_id']);
             $table->dropForeign(['skill_id']);

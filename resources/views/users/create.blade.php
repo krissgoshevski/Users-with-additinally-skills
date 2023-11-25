@@ -20,7 +20,7 @@
         </style>
     </head>
     <body>
-    <a href="{{route('users.index')}}">Create new user</a>
+    <a href="{{route('users.index')}}">List of all users</a>
 
         <h1>Create new user </h1>
 
@@ -37,6 +37,13 @@
     <p>
         <label for="password">Password:</label>
         <input type="password" name="password" id="password" required>
+    </p>
+
+
+
+    <p>
+        <label for="password_confirmation">Confirm Password:</label>
+        <input type="password" name="password_confirmation" id="password_confirmation" required>
     </p>
     
     <p> <label>Skills:</label>
